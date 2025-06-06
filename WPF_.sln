@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model_", "Model_\Model_.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "ViewModel\ViewModel.csproj", "{C1185850-BE12-4952-8240-91AA8995A902}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework 7 UserControl", "Homework 7 UserControl", "{67062758-608F-4958-A447-176F72EDBB9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControl MainWindow", "UserControl MainWindow\UserControl MainWindow.csproj", "{3DC3844F-6C8A-4F52-AD4F-195B0A45287F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +63,10 @@ Global
 		{C1185850-BE12-4952-8240-91AA8995A902}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1185850-BE12-4952-8240-91AA8995A902}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1185850-BE12-4952-8240-91AA8995A902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC3844F-6C8A-4F52-AD4F-195B0A45287F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC3844F-6C8A-4F52-AD4F-195B0A45287F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC3844F-6C8A-4F52-AD4F-195B0A45287F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC3844F-6C8A-4F52-AD4F-195B0A45287F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +75,7 @@ Global
 		{28BB7A4D-87A9-4A97-8ECA-829100305BF5} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
 		{707F1FB6-CCE7-434E-A1BC-09589C1F7915} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
 		{C1185850-BE12-4952-8240-91AA8995A902} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+		{3DC3844F-6C8A-4F52-AD4F-195B0A45287F} = {67062758-608F-4958-A447-176F72EDBB9D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {246CC993-D4B3-4B9F-BD05-CD46DB067BB5}

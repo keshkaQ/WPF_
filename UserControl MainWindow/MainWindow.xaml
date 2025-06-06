@@ -1,0 +1,21 @@
+﻿<Window x:Class="UserControl_MainWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:uc="clr-namespace:UserControl_MainWindow"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserControl_MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="900">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <uc:UserControl Title="Enter Name: " MaxLength="15" Height="50"></uc:UserControl>
+        <uc:UserControl Grid.Row="1" Title="Enter Surname: " MaxLength="20" Height="50"></uc:UserControl>
+        <uc:UserControl Grid.Row="2" Title="Enter Patronymic: " MaxLength="30" Height="50"></uc:UserControl>
+    </Grid>
+</Window>
