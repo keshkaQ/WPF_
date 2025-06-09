@@ -1,0 +1,9 @@
+Страница: AboutPageViewModel
+Страница: HomePageViewModel
+Страница: AboutPageViewModel
+Страница: HomePageViewModel
+Страница: AboutPageViewModel
+Страница: HomePageViewModel
+Страница: AboutPageViewModel
+Страница: HomePageViewModel
+Страница: AboutPageViewModel
